@@ -1,0 +1,28 @@
+# =============================================================================
+# IQRE — Institutional Quantitative Reporting Engine
+# Production Dependency Manifest
+# =============================================================================
+# Python >= 3.12 required (ARCHITECTURE.md §2)
+# Install:  pip install -r requirements.txt
+# =============================================================================
+
+# --- Data Engineering --------------------------------------------------------
+pandas>=2.0.0           # Series/DataFrame engine; temporal sorting; groupby
+numpy>=1.26.0           # Ulcer Index RMS computation; vectorised algebra
+
+# --- Data Integrity ----------------------------------------------------------
+pydantic>=2.6.0         # DecisionUnit schema validation (ARCHITECTURE.md §2)
+
+# --- Excel I/O ---------------------------------------------------------------
+openpyxl>=3.1.0         # Primary XLSX writer (audit_workbook.py)
+xlsxwriter>=3.2.0       # Alternative XLSX engine; chart support (future use)
+
+# --- PDF Generation ----------------------------------------------------------
+fpdf2>=2.7.0            # Institutional Tear Sheet PDF (tear_sheet_gen.py)
+
+# --- CLI Formatting ----------------------------------------------------------
+tabulate>=0.9.0         # Grid-format console summary tables (main.py)
+
+# --- Visual Analytics --------------------------------------------------------
+matplotlib>=3.8.0       # Equity Curve + high-DPI PNG export (visual_generator.py)
+seaborn>=0.13.0         # Monthly Returns Heatmap (visual_generator.py)
