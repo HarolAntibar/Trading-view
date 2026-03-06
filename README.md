@@ -269,13 +269,12 @@ All five protocols defined in `ARCHITECTURE.md §6` are enforced at runtime:
 
 ---
 
-## Support & Feedback
+## Support & Engagement
 
-This system is maintained under active development. For technical queries,
-integration requests, or audit support, please contact the Lead Decision
-Systems Architect.
+This system is maintained under active development. For technical inquiries, institutional integration requests, or audit support, please contact the **Lead Decision Systems Architect**:
 
-*ARCHITECTURE.md is the single source of truth for all engineering decisions.
-Last revised: February 2026.*
-#   T r a d i n g - v i e w  
- 
+* **Architect:** Harol Danilo Antibar Latorre
+* **Professional Profile:** [LinkedIn Portfolio](https://www.linkedin.com/in/harol-antibar/)
+* **Contact:** harolantibar100@gmail.com
+
+*ARCHITECTURE.md is the single source of truth for all engineering decisions. Last revised: February 2026.*
